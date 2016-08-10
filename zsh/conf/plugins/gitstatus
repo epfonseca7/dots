@@ -63,7 +63,7 @@ git_status() {
   fi
 
   if [[ -n $GIT_STATE ]]; then
-    echo "$GIT_STATE"
+    echo " $GIT_STATE"
   fi
 }
 
@@ -71,6 +71,6 @@ git_status() {
 git_prompt_string() {
   local _GIT_BRANCH="$(git_branch)"
   if [ -n "$_GIT_BRANCH" ]; then
-    echo "$_GIT_PROMPT_SYMBOL$_GIT_PROMPT_PREFIX$_GIT_BRANCH $(git_status)$_GIT_PROMPT_SUFFIX"
+    echo "$_GIT_PROMPT_SYMBOL$_GIT_PROMPT_PREFIX$_GIT_BRANCH$(git_status)$_GIT_PROMPT_SUFFIX"
   fi
 }
