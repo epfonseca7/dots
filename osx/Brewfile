@@ -29,6 +29,7 @@ cask 'the-unarchiver'
 cask 'transmission'
 cask 'vlc'
 cask 'pgadmin3'
+cask 'openoffice'
 
 # Install fonts
 cask 'font-sauce-code-powerline'
