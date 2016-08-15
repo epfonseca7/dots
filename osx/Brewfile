@@ -28,6 +28,7 @@ cask 'spotify'
 cask 'the-unarchiver'
 cask 'transmission'
 cask 'vlc'
+cask 'pgadmin3'
 
 # Install fonts
 cask 'font-sauce-code-powerline'
